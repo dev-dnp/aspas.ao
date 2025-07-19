@@ -6,13 +6,13 @@ import clsx from "clsx";
 const Header = () => {
   return ( 
     <header>
-        <div className={clsx("container")}>
+        <div className={clsx("container", style.headerContainer)}>
             <div className={style.logo}>
                 <img src={logoAspas} width={32} alt="Aspas Logo" />
             </div>
 
             <div className={style.logoMenu}>
-                <Menu />
+                <Menu color="#fff" />
             </div>
         </div>
     </header>

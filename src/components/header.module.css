@@ -1,0 +1,8 @@
+.headerContainer 
+{
+    background-color: #4b2b97;
+    height: 3.5625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
