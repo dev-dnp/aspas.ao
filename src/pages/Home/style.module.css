@@ -1,7 +1,15 @@
 .banner 
 {
-    background-image: url("/src/assets/book.jpg");
+    background-image: linear-gradient(60deg, #4b2b97c7 100%, transparent), url("/src/assets/book.jpg");
     height: 20rem;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 
+{
+    width: 80%;
+    color: #fff;
 }

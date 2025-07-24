@@ -8,7 +8,7 @@ const Home = () => {
             <section className={style.banner}>
                 <div className="container">
                     <h1>
-                        "Mensagem
+                        O espaço perfeito para casar com a leitura
                     </h1>
                 </div>
             </section>
