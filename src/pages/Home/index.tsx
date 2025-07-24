@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import style from "./style.module.css";
 import { Book, NotebookPen, NotepadTextDashed } from "lucide-react";
 
