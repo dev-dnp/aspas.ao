@@ -2,7 +2,20 @@
 {
     background-color: #4b2b97;
     height: 3.5625rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 50px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logoMenu {
+    background-color: #ffffff27;
+    padding: 2px;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
 }

@@ -6,6 +6,7 @@ const routes = [
     {
         path: "/",
         element: <MainLayout />,
+        errorElement: <h1>Erro!</h1>,
         children: [
             {
                 path: "/",

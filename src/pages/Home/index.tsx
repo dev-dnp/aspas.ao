@@ -1,11 +1,11 @@
 import clsx from "clsx";
 import style from "./style.module.css";
-import { Book, Menu, NotebookPen, NotepadTextDashed } from "lucide-react";
+import { Book, NotebookPen, NotepadTextDashed } from "lucide-react";
 
 const Home = () => {
     return(
         <div>
-            <section>
+            <section className={style.banner}>
                 <div className="container">
                     <h1>
                         "Mensagem
