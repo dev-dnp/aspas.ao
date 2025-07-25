@@ -48,11 +48,32 @@
 .itemService h2 
 {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
+    color: #fff;
 }
 
 .itemService span 
 {
     font-size: 12px;
     font-weight: 500;
+}
+
+.services > .itemService:nth-child(1) 
+{
+    background: linear-gradient(100deg, #8d114f, #8d114fdc);
+}
+
+.services > .itemService:nth-child(2) 
+{
+    background: linear-gradient(100deg, #146988, #146988dc);
+}
+
+.services > .itemService:nth-child(3) 
+{
+    background: linear-gradient(100deg, #333d83, #333d83dc);
+}
+
+.services > .itemService:nth-child(4) 
+{
+    background: linear-gradient(100deg, #953b21, #953b21dc);
 }
