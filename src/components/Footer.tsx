@@ -59,7 +59,7 @@ const Footer = ()=> {
                         <h2 className={style.footerTitle}>Newsletter</h2>
                         <form className={style.footerFormInput}>
                             <input type="text" placeholder="Insira seu email"/>
-                            <button>Receber novidades</button>
+                            <button>Quero receber novidades</button>
                         </form>
                     </div>
                 </div>

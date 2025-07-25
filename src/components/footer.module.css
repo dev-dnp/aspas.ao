@@ -72,6 +72,7 @@
     padding: 1rem;
     border-radius: 4px;
     text-align: center;
+    font-size: 1rem;
 }
 
 .footerFormInput button 
@@ -81,6 +82,7 @@
     font-size: .875rem;
     background-color: #000;
     color: #fff;
+
 }
 
 .boxNewletter
