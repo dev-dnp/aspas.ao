@@ -1,3 +1,4 @@
+import Separator from "../../components/Separator";
 import style from "./style.module.css";
 
 const Home = () => {
@@ -39,6 +40,10 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <div className="container">
+                <Separator />
+            </div>
 
             <section>
                 <div className="container">
