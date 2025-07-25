@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Separator from "../../components/Separator";
 import style from "./style.module.css";
 
@@ -45,58 +46,86 @@ const Home = () => {
                 <Separator />
             </div>
 
-            <section>
+            <section className={style.boxListArticle}>
                 <div className="container">
-                    <h1>Destaques de artigo</h1>
+                    <h1 className={style.hTitle1}>Destaques de artigo</h1>
 
                     <div className={style.listArticle}>
                         <article className={style.articleCard}>
-                            <div className={style.articleImg}>
-                                <img src="" alt="Imagem do artigo" />
+                            <div className={clsx(style.articleImg, style.health)}>
                             </div>
 
-                            <div>
+                            <div className={style.boxReviewArticle}>
                                 <h2 className={style.articleTitle}>
                                     Como encontrar a felicidade
                                 </h2>
 
                                 <p className={style.articleText}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab. Vitae obcaecati delectus id adipisci dolorum, ratione blanditiis fugit ullam! Minus, rerum amet commodi eos aliquid officiis officia!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab.  
+                                </p>
+                            </div>
+                        </article>
+
+                         <article className={style.articleCard}>
+                            <div className={clsx(style.articleImg, style.sports)}>
+                            </div>
+
+                            <div className={style.boxReviewArticle}>
+                                <h2 className={style.articleTitle}>
+                                    Como encontrar a felicidade
+                                </h2>
+
+                                <p className={style.articleText}>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab.  
+                                </p>
+                            </div>
+                        </article>
+
+                         <article className={style.articleCard}>
+                            <div className={clsx(style.articleImg, style.technology)}>
+                            </div>
+
+                            <div className={style.boxReviewArticle}>
+                                <h2 className={style.articleTitle}>
+                                    Como encontrar a felicidade
+                                </h2>
+
+                                <p className={style.articleText}>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab.  
+                                </p>
+                            </div>
+                        </article>
+
+                         <article className={style.articleCard}>
+                            <div className={clsx(style.articleImg, style.quotes)}>
+                            </div>
+
+                            <div className={style.boxReviewArticle}>
+                                <h2 className={style.articleTitle}>
+                                    Como encontrar a felicidade
+                                </h2>
+
+                                <p className={style.articleText}>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab.  
                                 </p>
                             </div>
                         </article>
 
                         <article className={style.articleCard}>
-                            <div className={style.articleImg}>
-                                <img src="" alt="Imagem do artigo" />
+                            <div className={clsx(style.articleImg, style.nature)}>
                             </div>
 
-                            <div>
+                            <div className={style.boxReviewArticle}>
                                 <h2 className={style.articleTitle}>
                                     Como encontrar a felicidade
                                 </h2>
 
                                 <p className={style.articleText}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab. Vitae obcaecati delectus id adipisci dolorum, ratione blanditiis fugit ullam! Minus, rerum amet commodi eos aliquid officiis officia!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab.  
                                 </p>
                             </div>
                         </article>
 
-                        <article className={style.articleCard}>
-                            <div className={style.articleImg}>
-                                <img src="" alt="Imagem do artigo" />
-                            </div>
-
-                            <div>
-                                <h2 className={style.articleTitle}>
-                                    Como encontrar a felicidade
-                                </h2>
-
-                                <p className={style.articleText}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas vel ab. Vitae obcaecati delectus id adipisci dolorum, ratione blanditiis fugit ullam! Minus, rerum amet commodi eos aliquid officiis officia!
-                                </p>
-                            </div>
-                        </article>
                     </div>
                 </div>
             </section>

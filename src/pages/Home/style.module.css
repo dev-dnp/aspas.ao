@@ -19,8 +19,14 @@
 .knowMoreTitle 
 {
     font-size: 1.25rem;
-    text-align: center;
+    text-align: left;
     margin: 1rem 0;
+}
+
+.hTitle1
+{
+    font-size: 1.25rem;
+    text-align: left;
 }
 
 .services 
@@ -110,4 +116,71 @@
 
 .services > .itemService:nth-child(4)::before {
     background-image: url("/src/assets/book-solid-full.svg");
+}
+
+.articleCard 
+{
+    display: flex;
+    gap: .5rem
+}
+
+.articleImg
+{
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.articleImg::before {
+    content: "";
+    display: grid;
+    place-items: center; 
+    background: linear-gradient(100deg, #000);
+    position: absolute;
+    inset: 0;
+    
+}
+
+.articleImg.sports::before {
+    
+    background: linear-gradient(100deg, #c95a15, #c95a15dc);
+    content: url("/src/assets/atom-fill.svg");
+}
+
+.articleImg.health::before {
+    background: linear-gradient(100deg, #0ea9e1, #0ea9e1dc);
+    content: url("/src/assets/heart-fill.svg");
+}
+
+.articleImg.technology::before {
+    background: linear-gradient(100deg, #213d86, #213d86dc);
+    content: url("/src/assets/brain-fill.svg");
+}
+
+.articleImg.nature::before {
+    background: linear-gradient(100deg, #086b6b, #086b6bdc);
+    content: url("/src/assets/brain-fill.svg");
+}
+
+.articleImg.quotes::before {
+    background: linear-gradient(100deg, #213d86, #213d86dc);
+    content: url("/src/assets/quotes-thin.svg");
+}
+
+.articleTitle
+{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.articleText
+{
+    font-size: .875rem;
+}
+
+.boxReviewArticle
+{
+    flex: 1 1 0%;
 }
