@@ -5,7 +5,7 @@ import clsx from "clsx";
 
 const Header = () => {
   return ( 
-    <header>
+    <header className={style.headerTop}>
         <div className={clsx("container", style.headerContainer)}>
             <div className={style.logo}>
                 <img src={logoAspas} width={32} alt="Aspas Logo" />
