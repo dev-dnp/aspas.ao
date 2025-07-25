@@ -1,0 +1,45 @@
+.boxFooter
+{
+    background-color: var(--color-primary);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footerLogo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo > * {
+    color: #fff
+}
+
+.footerContainer 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerTitle
+{
+    font-size: .875rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.footerLinks li a 
+{
+    font-size: 0.8125rem;
+    color: #ffffffc7;
+}
+
+.footerContact a
+{
+    color: #ffffffc7;
+    font-size: .875rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}

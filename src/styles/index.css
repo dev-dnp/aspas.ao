@@ -8,6 +8,10 @@
     font-weight: 400;
 }
 
+:root {
+    --color-primary:  #4b2b97;
+}
+
 html 
 {
     font-size: 16px;
