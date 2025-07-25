@@ -7,29 +7,35 @@ const Home = () => {
             <section className={style.banner}>
                 <div className="container">
                     <h1>
-                        O espaço perfeito para casar com a leitura
+                        O espaço perfeito para amar a leitura
                     </h1>
                 </div>
             </section>
 
-            <section>
+            <section className={style.knowMore}>
+                
                 <div className="container">
-                    <h1>O que procura?</h1>
+                    <h1 className={style.knowMoreTitle}>O que procura?</h1>
 
                     <div className={style.services}>
                         <a className={style.itemService}>
-                            <Book />
-                            <span>Artigos</span>
+                            <h2>Artigos</h2>
+                            <span>125 posts</span>
                         </a>
 
                         <a className={style.itemService}>
-                            <NotebookPen />
-                            <span>Artigos</span>
+                            <h2>Citações</h2>
+                            <span>1253 frases</span>
                         </a>
 
                         <a className={style.itemService}>
-                            <NotepadTextDashed/>
-                            <span>Artigos</span>
+                            <h2>Comunidade</h2>
+                            <span>+12500 comentários</span>
+                        </a>
+
+                        <a className={style.itemService}>
+                            <h2>Eventos</h2>
+                            <span>8 eventos</span>
                         </a>
                     </div>
                 </div>
