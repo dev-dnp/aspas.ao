@@ -55,10 +55,10 @@ const Footer = ()=> {
                         </div>
                     </div>
 
-                    <div>
+                    <div className={style.boxNewletter}>
                         <h2 className={style.footerTitle}>Newsletter</h2>
-                        <form>
-                            <input type="text" placeholder="email"/>
+                        <form className={style.footerFormInput}>
+                            <input type="text" placeholder="Insira seu email"/>
                             <button>Receber novidades</button>
                         </form>
                     </div>

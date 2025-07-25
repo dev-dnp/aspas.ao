@@ -59,3 +59,31 @@
     flex-direction: column;
     gap: .25rem;
 }
+
+.footerFormInput
+{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footerFormInput input 
+{
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.footerFormInput button 
+{
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: .875rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.boxNewletter
+{
+    margin-top: 1rem;
+}
