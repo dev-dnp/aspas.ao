@@ -9,7 +9,7 @@ const Footer = ()=> {
         <footer className={style.boxFooter}>
             <div className={clsx("container", style.footerContainer)}>
                 <div className={style.footerLogo}>
-                    <img src={logoAspas} alt="" width={32}/>
+                    <img src={logoAspas} alt="" width={40}/>
                     <span>Aspas.ao</span>
                 </div>
 
@@ -43,13 +43,13 @@ const Footer = ()=> {
                 <div className={style.footerContact}>
                     <div>
                         <h2 className={style.footerTitle}>Contactos</h2>
-                        <div>
+                        <div className={style.phoneEmail}>
                             <a href="">
-                                <Phone size={20}/>
+                                <Phone size={16}/>
                                 +244 944 895 118
                             </a>
                             <a href="">
-                                <Mail size={20}/>
+                                <Mail size={16}/>
                                 domingosnkulajw@gmail.com
                             </a>
                         </div>
